@@ -1,0 +1,1 @@
+gcloud compute instances create-with-container worker1 --container-image=registry.hub.docker.com/hummer12007/parcs-node --container-env PARCS_ARGS="worker 10.166.0.10"
